@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gabarito">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <style>
+        body {
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: Gabarito;
+        animation: backInUp;
+        animation-duration: 1s;
+        transition: 0.1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+    ul{
+        list-style-type: none;
+    }
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li><h1>Simple Ceaser Cipher</h1></li>
+        <li><textarea id="input" cols="30" rows="10"></textarea></li>
+        <li><button onclick="submit()">Submit</button><button id="reset" onclick="reset()">Reset</button></li>
+        <li><p id="output"></p></li>
+    </ul>
+    
+    
+</body>
+</html>
